@@ -1,0 +1,237 @@
+.logo{
+    
+    display: inline-block;
+    margin-top: 20px;
+    
+
+}
+
+.logo img{
+
+    margin-left: 20px;
+    float: left;
+    height: 40px;
+    width: 60px;
+}
+
+.Nav_Bar {
+    display: inline-block;
+    margin-left: 300px;
+
+    
+}
+
+.Nav_Bar button{
+    font-size: 14pt;
+    font-family: monaco, "Lucida Console", monospace;
+    color: rgb(0,0,0);
+    font-weight: bolder;
+    margin-right: 10px;
+    padding-left: 15px;
+    border: none;
+    background: #fff;
+}
+
+.Nav_Bar a:hover{
+    background: black;
+
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .drop_button{
+    display: inline-block;
+    margin-right: 25px;
+}
+.dropdown .dropdown-content{
+    width: 140px;
+    height: 100px;
+}
+
+.dropdown .dropdown-content a{
+    display: block;
+    text-align: center;
+    padding-right: 20px;
+    float: none;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11pt;
+    
+}
+.dropdown .dropdown-content{
+    background: black;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    transition: 0.3s;
+}
+
+
+.options{
+    display: inline-block;  
+    padding-left: 100px;
+}
+.options img{
+    margin-top: 0px;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+.options button{
+    padding-left: 15px;
+    text-decoration: none;
+    font-family: monaco, "Lucida Console", monospace;
+    font-weight: bolder;
+    font-size: 14pt;
+    color: black;
+    border: none;
+    background: #fff;
+
+}
+
+/* The sidepanel menu */
+.sidepanel {
+    float: right;
+    height: 100vh; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 1287px;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+    text-align: center;
+  padding: 20px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3184a5;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  position: fixed;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  padding: 10px 15px;
+  margin-left: 160px;
+  border: none;
+}
+
+/* Now we will add stage 2 in web page of company phto and name */
+.Comp_photo img{
+    
+    position: absolute;
+    left: 400px;
+    top: 165px;
+    width: 750px;
+    height: 500px;
+
+}
+
+.company_name, .company_name2{
+    position: relative;
+    left: 250px;
+    top: 200px;
+    background: #3184a5;
+    font-size: 26pt;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 200px;
+    height: 50px;
+    padding: 18px 50px 15px 10px;
+}
+
+.company_name2{
+    padding-right: 0px;
+    top: 180px;
+}
+/*Add link of the project*/
+
+.Comp_photo a{
+    position: absolute;
+    top: 525px;
+    left: 258px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-size: 7pt;
+}
+
+.description{
+    display: block;
+    position: absolute;
+    top: 800px;
+    left: 260px;
+}
+.description img{
+    
+    width: 50px;
+    height: 25px;
+}
+
+.description p{
+    color: #3184a5;
+}
+
+.description h3{
+    position: absolute;
+    width: 320px;
+    left: 200px;
+    top: 0px;
+    font-size: 16pt;
+    font-family: sans-serif ;
+}
+#para{
+    position: absolute;
+    left: 600px;
+    top: 5px;
+    width: 350px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 10pt;
+
+}
+#research{
+    width: 800px;
+    height: 250px;
+    position: absolute;
+    left: 180px;
+    top: 100px;
+}
+
+
